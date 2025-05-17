@@ -1,0 +1,88 @@
+<div class="container mt-4">
+  <!-- Filter Controls -->
+  <div class="row mb-4">    
+    <div class="col-md-3">
+                  <label for="validationCustom03" class="form-label">Product</label>
+                  <select class="form-select" id="validationCustom03" name="prdct" [(ngModel)]="newSalesRepresentativeObj.product_Id" required>
+                  <option selected disabled value="">Choose...</option>
+                  @for (item of productList | async; track $index)
+                  {
+                  <option [value]="item.product_ID">{{item.product_Type}}</option>
+                  }      
+                  </select>
+                  <div class="invalid-feedback">
+                     Please select a Product.
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Performance</label>
+                  <select class="form-select" id="validationCustom04" name="prfrmnce" [(ngModel)]="newSalesRepresentativeObj.performance_ID" required>
+                  <option selected disabled value="">Choose...</option>
+                  @for (item of performanceList | async; track $index)
+                  {
+                  <option [value]="item.performance_ID">{{item.performance_Type}}</option>
+                  }    
+                  </select>
+                  <div class="invalid-feedback">
+                     Please select a Performance.
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Region</label>
+                  <select class="form-select" id="validationCustom05" name="rgon" [(ngModel)]="newSalesRepresentativeObj.region_ID" required>
+                  <option selected disabled value="">Choose...</option>
+                  @for (item of regionList | async; track $index)
+                  {
+                  <option [value]="item.region_ID">{{item.region_Name}}</option>
+                  } 
+                  </select>
+                  <div class="invalid-feedback">
+                     Please select a Region.
+                  </div>
+               </div>
+  </div>
+
+  <!-- Card List -->
+  <div class="row">
+    @for (item of objsalesRepresentativeDetails | async; track $index)
+    {
+    <div class="col-md-3 mb-3">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body">
+            <h5 class="card-title">
+                {{item.representative_First_Name}} {{item.representative_Last_Name}}
+            </h5>
+            <p class="card-text mb-1"><strong>Product:</strong>{{item.product_Type}}</p>
+            <p class="card-text mb-1"><strong>Region:</strong>{{item.region_Name }}</p>
+            <p class="card-text mb-1"><strong>Performance:</strong>{{item.performance_Type}}</p>
+            <button class="btn btn-primary" type="button" (click)="onEditSalesRepresentative(item)">Edit</button>
+            <button class="btn btn-primary" type="button" (click)="onDeleteSalesRepresentative(item)">Delete</button>            
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Confirm Delete</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to delete <strong></strong>?
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button class="btn btn-danger" >Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- <div *ngIf="filteredReps.length === 0" class="alert alert-warning text-center mt-3">
+    No sales representatives match the selected filters.
+  </div> -->
+</div>
