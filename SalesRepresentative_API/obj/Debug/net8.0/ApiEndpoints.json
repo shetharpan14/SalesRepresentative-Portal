@@ -1,0 +1,207 @@
+[
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "AddSalesRepresentativeData",
+    "RelativePath": "api/SalesRepresentative/AddSalesRepresentativeData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salesRepresentativeData",
+        "Type": "SalesRepresentative_API.Models.SalesRepresentativeData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "DeleteSalesRepresentative",
+    "RelativePath": "api/SalesRepresentative/DeleteSalesRepresentative/{salesRepresentativeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salesRepresentativeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "GetAllSalesRepresentativeData",
+    "RelativePath": "api/SalesRepresentative/GetAllSalesRepresentativeData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SalesRepresentative_API.Models.SalesRepresentativeData, SalesRepresentative_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "GetPerformanceType",
+    "RelativePath": "api/SalesRepresentative/GetPerformanceType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SalesRepresentative_API.Models.Performance, SalesRepresentative_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "GetProductList",
+    "RelativePath": "api/SalesRepresentative/GetProductList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SalesRepresentative_API.Models.Product, SalesRepresentative_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "GetRegions",
+    "RelativePath": "api/SalesRepresentative/GetRegionList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SalesRepresentative_API.Models.Region, SalesRepresentative_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "SalesRepresentativeDetails",
+    "RelativePath": "api/SalesRepresentative/SalesRepresentativeDetails/{salesRepresentativeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salesRepresentativeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SalesRepresentative_API.Models.SalesRepresentativeData",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.SalesRepresentativeController",
+    "Method": "UpdateSalesRepresentativeData",
+    "RelativePath": "api/SalesRepresentative/UpdateSalesRepresentativeData",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salesRepresentativeData",
+        "Type": "SalesRepresentative_API.Models.SalesRepresentativeData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesRepresentative_API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SalesRepresentative_API.WeatherForecast, SalesRepresentative_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
