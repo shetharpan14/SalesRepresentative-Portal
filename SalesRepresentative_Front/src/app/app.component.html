@@ -1,22 +1,27 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+    <a class="navbar-brand" routerLink="/">
+      <img src="assets/images/salesperson.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+      aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item" >
-          <a class="nav-link active" routerLink="dashboard">DashBoard</a>
+      <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/dashboard'" routerLinkActive="active">Dashboard</a>
         </li>
-        <li class="nav-item" >
-          <a class="nav-link" [routerLink]="'sales-representative-details'">Representative Details</a>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/sales-representative-details'" routerLinkActive="active">Representative Details</a>
         </li>
-        <li class="nav-item" >
+        <li class="nav-item">
           <a class="nav-link" href="javascript:void(0)">Link</a>
         </li>
-      </ul>      
+      </ul>
     </div>
   </div>
 </nav>
+
 <router-outlet></router-outlet>

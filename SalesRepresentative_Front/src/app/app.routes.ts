@@ -4,22 +4,8 @@ import { SalesRepresentativeListComponent } from './sales-representative-details
 import { DashboardComponent } from './sales-representative-details/dashboard.component';
 
 export const routes: Routes = [
-    {
-        path:'',
-        redirectTo:'sales-representative-details',
-        pathMatch:'full'
-    },
-    {
-        path:'dashboard',
-        component:DashboardComponent
-    },
-    {
-        path: 'sales-representative-details',
-        component:SalesRepresentativeDetailsComponent
-    }
-    // {
-    //     path: 'sales-representative-list',
-    //     component:SalesRepresentativeListComponent
-    // }
+    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'sales-representative-details', component: SalesRepresentativeDetailsComponent }
 
 ];
