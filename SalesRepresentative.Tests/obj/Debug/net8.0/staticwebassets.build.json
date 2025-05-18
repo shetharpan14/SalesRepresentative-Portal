@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TiOhSVP47LBil085nFrCtOr54GjuSD14zZf15iX1knA=",
+  "Hash": "z+9WhxQE1OCOyrI2Xd7MKz5wb+tiFwdmWC6pE00KUSs=",
   "Source": "SalesRepresentative.Tests",
   "BasePath": "_content/SalesRepresentative.Tests",
   "Mode": "Default",
@@ -12,10 +12,10 @@
       "Source": "SalesRepresentative_API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [],
