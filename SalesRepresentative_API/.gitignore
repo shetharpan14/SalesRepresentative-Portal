@@ -1,0 +1,33 @@
+# Ignore Visual Studio user-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+
+# Ignore test results
+TestResults/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore Angular environment and build files
+SalesRepresentative_Front/node_modules/
+SalesRepresentative_Front/dist/
+SalesRepresentative_Front/.angular/
+SalesRepresentative_Front/.env
+
+# Ignore DLLs and compiled outputs
+*.dll
+*.exe
+*.pdb
+
+# Ignore system files
+.DS_Store
+Thumbs.db

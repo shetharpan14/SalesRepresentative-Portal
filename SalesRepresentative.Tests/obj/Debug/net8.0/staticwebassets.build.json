@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "z+9WhxQE1OCOyrI2Xd7MKz5wb+tiFwdmWC6pE00KUSs=",
+  "Source": "SalesRepresentative.Tests",
+  "BasePath": "_content/SalesRepresentative.Tests",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\Clon Repo\\Front-End\\SalesRepresentative-Portal\\SalesRepresentative_API\\SalesRepresentative_API.csproj",
+      "Version": 2,
+      "Source": "SalesRepresentative_API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

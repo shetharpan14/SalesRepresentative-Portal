@@ -1,12 +1,12 @@
 ﻿using System.Data;
 using Microsoft.Data.SqlClient;
+using SalesRepresentative_API.Interface;
 
 namespace SalesRepresentative_API.Models
 {
-    public class SalesRepresentativeDataAccessLayer
+    public class SalesRepresentativeDataAccessLayer: ISalesRepresentativeDataAccessLayer
     {
-        //string connectionString = "Data Source=LAPTOP-RMEF45LI\\SQLEXPRESS;Initial Catalog=SalesData;Integrated Security=True;Encrypt=False";
-        public static IConfiguration Configuration { get; set; }
+        public static IConfiguration? Configuration { get; set; }
 
         private string? GetConnectionString()
         {
