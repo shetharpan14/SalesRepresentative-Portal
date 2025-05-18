@@ -2109,11 +2109,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SalesRepresentative_API\\SalesRepresentative_API\\SalesRepresentative_API.csproj",
+      "projectUniqueName": "F:\\Clon Repo\\Front-End\\SalesRepresentative-Portal\\SalesRepresentative_API\\SalesRepresentative_API.csproj",
       "projectName": "SalesRepresentative_API",
-      "projectPath": "E:\\SalesRepresentative_API\\SalesRepresentative_API\\SalesRepresentative_API.csproj",
+      "projectPath": "F:\\Clon Repo\\Front-End\\SalesRepresentative-Portal\\SalesRepresentative_API\\SalesRepresentative_API.csproj",
       "packagesPath": "C:\\Users\\Arpan Sheth\\.nuget\\packages\\",
-      "outputPath": "E:\\SalesRepresentative_API\\SalesRepresentative_API\\obj\\",
+      "outputPath": "F:\\Clon Repo\\Front-End\\SalesRepresentative-Portal\\SalesRepresentative_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
