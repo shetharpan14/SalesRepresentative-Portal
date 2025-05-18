@@ -1,45 +1,5 @@
-<div class="container mt-4">
-  <h2>Sales Performance Dashboard</h2>
-
-  <!-- Performance by Product -->
-  <div class="row mt-4">
-    @for (key of objectKeys(productCount); track key) {
-      <div class="col-md-4">
-        <div class="card text-white bg-primary mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Product: {{ key }}</h5>
-            <p class="card-text">Count: {{ productCount[key] }}</p>
-          </div>
-        </div>
-      </div>
-    }
-  </div>
-
-  <!-- Performance by Region -->
-  <div class="row mt-4">
-    @for (key of objectKeys(regionCount); track key) {
-      <div class="col-md-4">
-        <div class="card text-white bg-success mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Region: {{ key }}</h5>
-            <p class="card-text">Count: {{ regionCount[key] }}</p>
-          </div>
-        </div>
-      </div>
-    }
-  </div>
-
-  <!-- Performance Type -->
-  <div class="row mt-4">
-    @for (key of objectKeys(performanceCount); track key) {
-      <div class="col-md-4">
-        <div class="card text-white bg-warning mb-3">
-          <div class="card-body">
-            <h5 class="card-title">Performance: {{ key }}</h5>
-            <p class="card-text">Count: {{ performanceCount[key] }}</p>
-          </div>
-        </div>
-      </div>
-    }
+<div class="container-fluid px-3">
+  <div class="row justify-content-center">
+<iframe [src]="reportUrl" width="100%" height="600" frameborder="0"></iframe>
   </div>
 </div>

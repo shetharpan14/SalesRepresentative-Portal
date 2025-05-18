@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesRepresentative_API", "SalesRepresentative_API.csproj", "{487909A3-6F38-4907-A9C4-59709BC606A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesRepresentative.Tests", "..\SalesRepresentative.Tests\SalesRepresentative.Tests.csproj", "{12C9A612-25E1-AD49-53E2-0C3DE1892397}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{487909A3-6F38-4907-A9C4-59709BC606A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487909A3-6F38-4907-A9C4-59709BC606A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487909A3-6F38-4907-A9C4-59709BC606A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C9A612-25E1-AD49-53E2-0C3DE1892397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C9A612-25E1-AD49-53E2-0C3DE1892397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C9A612-25E1-AD49-53E2-0C3DE1892397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C9A612-25E1-AD49-53E2-0C3DE1892397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
